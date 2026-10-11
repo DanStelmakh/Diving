@@ -67,18 +67,17 @@ a {
 .hero-container {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .hero-wrapper {
-    padding-right: 447px;
+    width: 663px;
 }
 
 .hero-title {
     font-size: 64px;
     font-weight: 700;
     color: #FFFFFF;
-    padding-top: 170px;
     padding-bottom: 20px;
 }
 
@@ -86,17 +85,14 @@ a {
     color: #FFFFFF;
     font-size: 32px;
     font-weight: 700;
-
-    text-shadow: 0px 4px 4px #00000040;
-
-    line-height: 1.4;
-    letter-spacing: -0.2px;
-
+    text-shadow: 0px 4px 4px 0px #00000040;
 
 }
 
 .destinations {
     background-color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .destinations-title {
@@ -104,25 +100,24 @@ a {
     font-size: 40px;
     color: #000000;
     text-align: center;
-    padding-top: 80px;
+    padding-bottom: 50px;
+
 }
 
 .destinations-list {
     display: flex;
     flex-direction: row;
+    gap: 30px;
 }
 
-.destinations-item {
-    padding-right: 30px;
-    padding-top: 50px;
-    padding-bottom: 80px;
-}
+.destinations-item {}
 
 .destinations-subtitle {
     text-align: center;
     padding-bottom: 15px;
     font-size: 36px;
     padding-top: 30px;
+    font-weight: 500;
 }
 
 .destinations-description {
@@ -136,22 +131,23 @@ a {
     justify-content: center;
     font-size: 24px;
     color: #7C7C7C;
-  
+
 }
 
-.destinations-link:hover{
-  text-decoration: underline;
+.destinations-link:hover {
+    text-decoration: underline;
 }
 
 
 
 .blog {
     background-color: #E6E6E6;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .blog-title {
     text-align: center;
-    padding-top: 80px;
     padding-bottom: 50px;
     font-size: 40px;
 }
@@ -170,58 +166,96 @@ a {
     padding-bottom: 25px;
     padding-top: 25px;
     padding-left: 40px;
+    color: #7C7C7C;
+    font-weight: 600;
 }
 
 
 .blog-subtitle {
     font-size: 24px;
-    padding-left:40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .blog-description {
-    padding-bottom: 130px;
+    padding-bottom: 50px;
     padding-top: 20px;
     font-size: 20px;
     padding-left: 40px;
+    color: #7C7C7C;
+    padding-right: 40px;
 }
 
 .blog-item {
     background-color: #FFFFFF;
     border-radius: 15px;
-    margin-bottom: 80px;
+
 }
 
-/* .galery{
+.galery {
     background-color: #001C2D;
-    display: flex;
-    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-.galery-title{
+.galery-title {
     font-size: 40px;
     color: #FFFFFF;
-    padding-top: 80px;
+
     padding-bottom: 50px;
-    padding-left: 150px;
+
 }
 
-.galery-list{
+.galery-list {
     display: flex;
-    flex-wrap:wrap;
-    padding-left: 150px;
-} */
-
-.footer{
-    background-color: #001C2D;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
-.footer-link{
-    font-size: 20px;
-    color:#FFFFFF;
+.galery-container {
+    display: flex;
+    gap: 270px;
+}
+
+.galery-wrapper {
+    width: 500px;
+}
+
+.galery-list-two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 500px;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 270px;
+    column-gap: 240px;
+    row-gap: 50px;
+}
+
+
+.galery-link {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.galery-link:hover{
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #001C2D;
     padding-bottom: 63px;
     padding-top: 63px;
-    display: flex;
-    align-items: center;
-    padding-left: 723px;
+    border-top: 1px solid #FFFFFF;
+
 }
 
+.footer-text {
+    font-size: 20px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+
+}
