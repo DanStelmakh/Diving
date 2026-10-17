@@ -262,7 +262,7 @@ a {
 .footer-text {
     font-size: 20px;
     color: #FFFFFF;
-
+    opacity: 50%;
     display: flex;
     justify-content: center;
     font-weight: 400;
