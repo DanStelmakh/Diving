@@ -21,6 +21,7 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 95px;
+    
 }
 
 
@@ -79,6 +80,7 @@ a {
     font-weight: 700;
     color: #FFFFFF;
     padding-bottom: 20px;
+    font-weight: 700;
 }
 
 .hero-description {
@@ -124,6 +126,7 @@ a {
     text-align: center;
     padding-bottom: 30px;
     font-size: 24px;
+    font-weight: 500;
 }
 
 .destinations-link {
@@ -131,6 +134,7 @@ a {
     justify-content: center;
     font-size: 24px;
     color: #7C7C7C;
+    font-weight: 500;
 
 }
 
@@ -150,6 +154,7 @@ a {
     text-align: center;
     padding-bottom: 50px;
     font-size: 40px;
+    font-weight: 600;
 }
 
 .blog-list {
@@ -175,6 +180,7 @@ a {
     font-size: 24px;
     padding-left: 40px;
     padding-right: 40px;
+    font-weight: 600;
 }
 
 .blog-description {
@@ -184,6 +190,7 @@ a {
     padding-left: 40px;
     color: #7C7C7C;
     padding-right: 40px;
+    font-weight: 600;
 }
 
 .blog-item {
@@ -201,7 +208,7 @@ a {
 .galery-title {
     font-size: 40px;
     color: #FFFFFF;
-
+    font-weight: 600;
     padding-bottom: 50px;
 
 }
@@ -231,6 +238,7 @@ a {
     height: 270px;
     column-gap: 240px;
     row-gap: 50px;
+    font-weight: 600;
 }
 
 
@@ -257,5 +265,6 @@ a {
 
     display: flex;
     justify-content: center;
+    font-weight: 400;
 
 }
